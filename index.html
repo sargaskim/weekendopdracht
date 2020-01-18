@@ -1,0 +1,121 @@
+<!DOCTYPE.html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Roulette </title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+         <div id="tavel">   <!-- nummerbord + wiel -->
+            <div id="draaiding"></div>  <!--wiel-->
+
+            <div id="nummerbord">   <!--nummerbord-->
+                <div id="boven">    <!--boven 750 bij 300-->
+
+                    <div id="linksuitsteeksel">     <!--0 100 bij 300-->
+                        <div id="0" onclick="bet('0')">0</div>
+                    </div>
+
+                    <table id="nrs">    <!--nummers 600 bij 300-->
+                        <div class="kader"><div id="1" class="getallen" class="odd" onclick="bet('1')">1</div></div>
+                        <div class="kader"><div id="2" class="getallen" class="even" onclick="bet('2')">2</div></div>
+                        <div class="kader"><div id="3" class="getallen" class="odd" onclick="bet('3')">3</div></div>
+                        <div class="kader"><div id="4" class="getallen" class="even" onclick="bet('4')">4</div></div>
+                        <div class="kader"><div id="5" class="getallen" class="odd" onclick="bet('5')">5</div></div>
+                        <div class="kader"><div id="6" class="getallen" class="even" onclick="bet('6')">6</div></div>
+                        <div class="kader"><div id="7" class="getallen" class="odd" onclick="bet('7')">7</div></div>
+                        <div class="kader"><div id="8" class="getallen" class="even" onclick="bet('8')">8</div></div>
+                        <div class="kader"><div id="9" class="getallen" class="odd" onclick="bet('9')">9</div></div>
+                        <div class="kader"><div id="10" class="getallen" class="even" onclick="bet('10')">10</div></div>
+                        <div class="kader"><div id="11" class="getallen" class="odd" onclick="bet('11')">11</div></div>
+                        <div class="kader"><div id="12" class="getallen" class="even" onclick="bet('12')">12</div></div>
+                        <div class="kader"><div id="13" class="getallen" class="odd" onclick="bet('13')">13</div></div>
+                        <div class="kader"><div id="14" class="getallen" class="even" onclick="bet('14')">14</div></div>
+                        <div class="kader"><div id="15" class="getallen" class="odd" onclick="bet('15')">15</div></div>
+                        <div class="kader"><div id="16" class="getallen" class="even" onclick="bet('16')">16</div></div>
+                        <div class="kader"><div id="17" class="getallen" class="odd" onclick="bet('17')">17</div></div>
+                        <div class="kader"><div id="18" class="getallen" class="even" onclick="bet('18')">18</div></div>
+                        <div class="kader"><div id="19" class="getallen" class="odd" onclick="bet('19')">19</div></div>
+                        <div class="kader"><div id="20" class="getallen" class="even" onclick="bet('20')">20</div></div>
+                        <div class="kader"><div id="21" class="getallen" class="odd" onclick="bet('21')">21</div></div>
+                        <div class="kader"><div id="22" class="getallen" class="even" onclick="bet('22')">22</div></div>
+                        <div class="kader"><div id="23" class="getallen" class="odd" onclick="bet('23')">23</div></div>
+                        <div class="kader"><div id="24" class="getallen" class="even" onclick="bet('24')">24</div></div>
+                        <div class="kader"><div id="25" class="getallen" class="odd" onclick="bet('25')">25</div></div>
+                        <div class="kader"><div id="26" class="getallen" class="even" onclick="bet('26')">26</div></div>
+                        <div class="kader"><div id="27" class="getallen" class="odd" onclick="bet('27')">27</div></div>
+                        <div class="kader"><div id="28" class="getallen" class="even" onclick="bet('28')">28</div></div>
+                        <div class="kader"><div id="29" class="getallen" class="odd" onclick="bet('29')">29</div></div>
+                        <div class="kader"><div id="30" class="getallen" class="even" onclick="bet('30')">30</div></div>
+                        <div class="kader"><div id="31" class="getallen" class="odd" onclick="bet('31')">31</div></div>
+                        <div class="kader"><div id="32" class="getallen" class="even" onclick="bet('32')">32</div></div>
+                        <div class="kader"><div id="33" class="getallen" class="odd" onclick="bet('33')">33</div></div>
+                        <div class="kader"><div id="34" class="getallen" class="even" onclick="bet('34')">34</div></div>
+                        <div class="kader"><div id="35" class="getallen" class="odd" onclick="bet('35')">35</div></div>
+                        <div class="kader"><div id="36" class="getallen" class="even" onclick="bet('36')">36</div></div>
+                    </div>
+                    <div id="rechter-zijdingie">    <!--rechter zij dingie met "2 to 1" 50 bij 300-->
+                        <div class="kader"><div class="2/1" onclick="bet('37')">2 to 1</div></div>
+                        <div class="kader"><div class="2/1" onclick="bet('38')">2 to 1</div></div>
+                        <div class="kader"><div class="2/1" onclick="bet('39')">2 to 1</div></div>
+                    </div>
+                </div>
+
+                <div id="onder">
+                    <div id="onder1">
+                        <div class="onder-boven">
+                            <div id="1st" class="onder-vak" onclick="bet('40')">1st 12</div>
+                        </div>
+                        <div class="onder-onder">
+                            <div class="onder-links">
+                                <div id="1to18" class="onder-vak" onclick="bet('41')">1 to 18</div>
+                            </div>
+                            <div class="onder-rechts">
+                                <div id="Even" class="onder-vak" onclick="bet('42')">EVEN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="onder2">
+                        <div class="onder-boven">
+                            <div id="2nd" class="onder-vak" onclick="bet('43')">2nd 12</div>
+                        </div>
+                        <div class="onder-onder">
+                            <div class="onder-links">
+                                <div id="red" class="onder-vak" onclick="bet('44')"></div>
+                            </div>
+                            <div class="onder-rechts">
+                                <div id="black" class="onder-vak" onclick="bet('45')">EVEN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="onder3">
+                        <div class="onder-boven">
+                            <div id="3nd" class="onder-vak" onclick="bet('46')">3rd 12</div>
+                        </div>
+                        <div class="onder-onder">
+                            <div class="onder-links">
+                                <div id="1to18" class="onder-vak" onclick="bet('47')">ODD</div>
+                            </div>
+                            <div class="onder-rechts">
+                                <div id="Even" class="onder-vak" onclick="bet('48')">19 to 36</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    
+    <footer></footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

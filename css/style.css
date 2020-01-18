@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tavel{
+    background-color: #006600;
+    width: 1700px;
+    height: 900px;
+    border: 5px solid #663300;
+    border-radius: 5%;
+    display: flex;
+    /* flex-direction: ; */
+}
+
+#nummerbord{
+    width: 1000px;
+    height: 500px;
+}
+
+#boven{
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+#nrs{
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+#nummerbord{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.kader{
+    border: 3px solid white;
+    width: 50px;
+    height: 150px;
+}
+.getallen{
+    
+}
+
+/*transform: rotate(-90deg);*/
