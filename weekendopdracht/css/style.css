@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #b30000;
+}
+
+    /* tafel opmaak */
+#tafel{
+    background-color: #006600;
+    border: 7px solid #331a00;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 21px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+
+    /* wiel */
+#draaiding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+#wiel{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}  
+
+
+#bord{
+    width: 886px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#boven{
+    display: flex;
+    flex-direction: row;
+}
+
+    /* cellen opmaak */
+table{
+    border-collapse: collapse;    
+}
+
+  
+/* style voor 0*/
+#nulvak{
+    display: flex;
+    flex-direction: row;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 95px  solid transparent;
+	border-right: 25px solid #009900;
+	border-bottom: 88px solid transparent;
+}
+#null{
+    width: 50px;
+    height: 177px;
+    background-color: transparent;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: #009900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#textnull{
+    transform: rotate(-90deg); 
+    font-size: 30px;
+}
+
+/* onderst deel van het bord */
+#onder{
+    width: 100%;
+    height: 100px;
+    margin-left: 75px;
+}
+.breet{
+    width: 237px;
+    height: 50px;
+    border: 3px solid white;
+    border-top: none;
+    text-align: center;
+    background-color: #009900;
+}
+.smal{
+    width: 117px;
+    border: 3px solid white;
+    height: 50px;
+    border-top: none;
+    text-align: center;
+    background-color: #009900;
+}
+
+/* opmaak nummerbord */
+.odd, .even, .tweeEen {
+    width: 57px;
+    height: 60px;
+    transform: rotate(-90deg);
+    border: 3px solid white;
+    text-align: center;
+}
+
+/* cellen kleur */
+#nummerbord .odd{background-color: black;}
+#nummerbord .even{background-color: red;}
+
+.odd, .even, .smal, .breet{
+    font-size: 30px;
+}
+.tweeEen{
+    font-size: 21px;
+    background-color: #009900;
+}

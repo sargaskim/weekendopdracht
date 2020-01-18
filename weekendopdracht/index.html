@@ -1,0 +1,104 @@
+<!DOCTYPE.html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Roulette </title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <div id="tafel">   <!-- nummerbord + wiel -->
+            <div id="draaiding">    <!--wiel-->
+                <img id="wiel" src="roulette_wiel_2.jpg">
+            </div> 
+
+            <div id="bord">     <!--nummerbord-->
+                <div id="boven">
+                    <div id="nulvak"> <!--nul-->
+                        <div class="triangle-left"></div>
+                        <div id="null" onclick="bet('0')"><p id="textnull">0</p></div>
+                    </div>          
+                    <table id="nummerbord">
+                        <tr>
+                            <td id="drie" class="odd" onclick="bet('3')">3</td>
+                            <td id="zes" class="even" onclick="bet('6')">6</td>
+                            <td id="negen" class="odd" onclick="bet('9')">9</td >
+                            <td id="twaals" class="even" onclick="bet('12')">12</td>
+                            <td id="vijftien" class="odd" onclick="bet('15')">15</td>
+                            <td id="achttien"class="even" onclick="bet('18')">18</td>
+                            <td id="eenentwintig" class="odd" onclick="bet('21')">21</td>
+                            <td id="vierentwintig" class="even" onclick="bet('24')">24</td>
+                            <td id="zevenentwintig" class="odd" onclick="bet('27')">27</td>
+                            <td id="dertig" class="even" onclick="bet('30')">30</td>
+                            <td id="drieendertig" class="odd" onclick="bet('33')">33</td>
+                            <td id="zesendertig" class="even" onclick="bet('36')">36</td>
+                            <td class="tweeEen" onclick="bet('37')">2 to 1</td>
+                        </tr>   
+                        <tr>
+                            <td id="twee" class="even" onclick="bet('2')">2</td>
+                            <td id="vijf" class="odd" onclick="bet('5')">5</td>
+                            <td id="acht" class="even" onclick="bet('8')">8</td>
+                            <td id="ellef" class="odd" onclick="bet('11')">11</td>
+                            <td id="viertien" class="even" onclick="bet('14')">14</td>
+                            <td id="zeventien" class="odd" onclick="bet('17')">17</td>
+                            <td id="twintig" class="even" onclick="bet('20')">20</td>
+                            <td id="drieentwintig" class="odd" onclick="bet('23')">23</td>
+                            <td id="zesentwintig" class="even" onclick="bet('26')">26</td>
+                            <td id="negenentwintig" class="odd" onclick="bet('29')">29</td>
+                            <td id="tweeendertig" class="even" onclick="bet('32')">32</td>
+                            <td id="vijfendertig" class="odd" onclick="bet('35')">35</td>
+                            <td class="tweeEen" onclick="bet('38')">2 to 1</td>
+                        </tr>     
+                        <tr>
+                            <td id="een" class="odd" onclick="bet('1')">1</td>
+                            <td id="vier" class="even" onclick="bet('4')">4</td>
+                            <td id="zeven" class="odd" onclick="bet('7')">7</td>
+                            <td id="tien" class="even" onclick="bet('10')">10</td>
+                            <td id="dertien" class="odd" onclick="bet('13')">13</td>
+                            <td id="zestien" class="even" onclick="bet('16')">16</td>
+                            <td id="negentien" class="odd" onclick="bet('19')">19</td>
+                            <td id="tweeentwintig" class="even" onclick="bet('22')">22</td>
+                            <td id="vijfentwintig" class="odd" onclick="bet('25')">25</td>
+                            <td id="achtentwintig" class="even" onclick="bet('28')">28</td>
+                            <td id="eenendertig" class="odd" onclick="bet('31')">31</td>
+                            <td id="vierendertig" class="even" onclick="bet('34')">34</td>
+                            <td class="tweeEen" onclick="bet('39')"><p id="extra">2 to 1</p></td>
+                        </tr>  
+                    </table> 
+                </div>
+
+                <div id="onder">
+                    <table id="onderBreet">
+                    <tr>
+                        <td id="first"class="breet" onclick="bet('40')">1st 12</td>
+                        <td id="second" class="breet" onclick="bet('43')">2nd 12</td>
+                        <td id="third" class="breet" onclick="bet('46')">3rd 12</td>
+                    </tr>
+                    </table>
+                    <table id="onderSmal">
+                        <tr>
+                            <td id="toAchttien" class="smal" onclick="bet('41')">1 to 18</td>
+                            <td id="Even" class="smal" onclick="bet('42')">-</td>
+                            <td id="red" class="smal" onclick="bet('44')">red</td>
+                            <td id="black" class="smal" onclick="bet('45')">black</td>
+                            <td id="Odd" class="smal" onclick="bet('47')">ODD</td>
+                            <td id="toZesendertig" class="smal" onclick="bet('48')">-</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    
+    <footer></footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
